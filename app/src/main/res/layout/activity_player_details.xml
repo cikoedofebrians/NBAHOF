@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/player_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/red"
+            app:layout_constraintBottom_toBottomOf="@+id/player_position_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/player_image_view" />
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/player_name_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="36sp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toStartOf="@+id/share_button"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/player_image_view"
+            tools:text="@string/player_name_dummy" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:id="@+id/player_position_tv"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:paddingBottom="16dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/player_name_tv"
+            app:layout_constraintTop_toBottomOf="@+id/player_name_tv"
+            tools:text="Point Guard" />
+
+
+        <ImageView
+            android:id="@+id/share_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/baseline_share_24"
+            app:layout_constraintBottom_toBottomOf="@+id/view2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/player_image_view" />
+
+        <TextView
+            android:id="@+id/career_stats_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="@string/career_stats"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <TextView
+            android:id="@+id/ppg_tv"
+            android:layout_marginTop="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text="@string/ppg"
+            android:textSize="16sp"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toStartOf="@+id/rpg_tv"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/career_stats_tv" />
+
+        <TextView
+            android:id="@+id/rpg_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/rpg"
+            app:layout_constraintBottom_toBottomOf="@id/ppg_tv"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toStartOf="@id/ast_tv"
+            app:layout_constraintStart_toEndOf="@+id/ppg_tv"
+            app:layout_constraintTop_toTopOf="@+id/ppg_tv" />
+
+        <TextView
+            android:id="@+id/ast_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="0dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/ast"
+            app:layout_constraintBottom_toBottomOf="@+id/ppg_tv"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rpg_tv"
+            app:layout_constraintTop_toTopOf="@+id/rpg_tv" />
+
+
+        <TextView
+            android:id="@+id/ppg_value_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            tools:text="@string/player_ppg_dummy"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/ppg_tv"
+            app:layout_constraintStart_toStartOf="@+id/ppg_tv"
+            app:layout_constraintTop_toBottomOf="@+id/ppg_tv" />
+
+        <TextView
+            android:id="@+id/rpg_value_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            tools:text="@string/player_rpg_dummy"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/rpg_tv"
+            app:layout_constraintStart_toStartOf="@+id/rpg_tv"
+            app:layout_constraintTop_toBottomOf="@+id/rpg_tv" />
+
+        <TextView
+            android:id="@+id/ast_value_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/player_ast_dummy"
+            android:textSize="24sp"
+            android:layout_marginTop="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/ast_tv"
+            app:layout_constraintStart_toStartOf="@+id/ast_tv"
+            app:layout_constraintTop_toBottomOf="@+id/ast_tv" />
+
+        <TextView
+            android:id="@+id/player_description_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:layout_marginLeft="16sp"
+            android:layout_marginRight="16sp"
+            android:text="@string/player_description"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/ppg_value_tv"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/player_description_value_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16sp"
+            android:layout_marginRight="16sp"
+            android:paddingBottom="24dp"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="@string/player_description_dummy"
+            app:layout_constraintTop_toBottomOf="@+id/player_description_tv" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NBAHOF" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="Theme.NBAHOF" parent="Base.Theme.NBAHOF" />
+
+    <style name="Theme.RemoveSplashScreenTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.NBAHOF</item>
+    </style>
+
+</resources>

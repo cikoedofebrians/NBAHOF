@@ -1,0 +1,146 @@
+<resources>
+    <string name="player_position_dummy">Point Guard</string>
+    <string name="player_name_dummy">Stephen Curry</string>
+    <string name="player_description_dummy">This is the description of a player.</string>
+    <string name="player_ppg_dummy">20.7</string>
+    <string name="player_rpg_dummy">10.2</string>
+    <string name="player_ast_dummy">6.7</string>
+    <string name="app_name">NBAHOF</string>
+
+    <string name="ppg">PPG</string>
+    <string name="rpg">RPG</string>
+    <string name="ast">AST</string>
+    <string name="profile_name">Ciko Edo Febrian</string>
+    <string name="profile_role">Mobile Developer</string>
+    <string name="profile_email">ciko.edo.febrians@gmail.com</string>
+    <string name="hall_of_famer">Hall of Famer</string>
+    <string name="player_description">Player Description</string>
+    <string name="career_stats">Career Stats</string>
+    <string-array name="player_name">
+        <item>Michael Jordan</item>
+        <item>Dwyane Wade</item>
+        <item>Tony Parker</item>
+        <item>Dirk Nowitzki</item>
+        <item>Pau Gasol</item>
+        <item>Manu Ginóbili</item>
+        <item>Paul Pierce</item>
+        <item>Kevin Garnett</item>
+        <item>Scottie Pippen</item>
+        <item>Shaquille O\'Neal</item>
+        <item>Yao Ming</item>
+        <item>Tim Duncan</item>
+        <item>Kobe Bryant</item>
+    </string-array>
+
+    <string-array name="player_position">
+        <item>Shooting Guard</item>
+        <item>Shooting Guard</item>
+        <item>Point Guard</item>
+        <item>Power Forward</item>
+        <item>Power Forward/Center</item>
+        <item>Shooting Guard</item>
+        <item>Small Forward</item>
+        <item>Power Forward/Center</item>
+        <item>Small Forward</item>
+        <item>Center</item>
+        <item>Center</item>
+        <item>Power Forward/Center</item>
+        <item>Shooting Guard</item>
+    </string-array>
+
+    <string-array name="player_ppg">
+        <item>30.1</item>
+        <item>22.0</item>
+        <item>15.5</item>
+        <item>20.7</item>
+        <item>17.0</item>
+        <item>13.3</item>
+        <item>19.7</item>
+        <item>17.8</item>
+        <item>16.1</item>
+        <item>23.7</item>
+        <item>19.0</item>
+        <item>19.0</item>
+        <item>25.0</item>
+    </string-array>
+
+    <string-array name="player_rpg">
+        <item>6.2</item>
+        <item>4.7</item>
+        <item>2.7</item>
+        <item>7.5</item>
+        <item>9.2</item>
+        <item>3.5</item>
+        <item>5.6</item>
+        <item>10.0</item>
+        <item>6.4</item>
+        <item>10.9</item>
+        <item>9.2</item>
+        <item>10.8</item>
+        <item>5.2</item>
+    </string-array>
+
+    <string-array name="player_ast">
+        <item>5.3</item>
+        <item>5.4</item>
+        <item>5.6</item>
+        <item>2.4</item>
+        <item>3.2</item>
+        <item>3.8</item>
+        <item>3.5</item>
+        <item>3.7</item>
+        <item>5.2</item>
+        <item>2.5</item>
+        <item>1.6</item>
+        <item>3.0</item>
+        <item>4.7</item>
+    </string-array>
+
+    <string-array name="player_description">
+        <item>Michael Jordan, often hailed as the greatest basketball player of all time, transcended the sport during his career with the Chicago Bulls and the Washington Wizards. His unparalleled combination of athleticism, scoring ability, and competitive drive set him apart. Jordan won six NBA championships, earned five regular-season MVP awards, and was a 14-time NBA All-Star. He was renowned for his signature clutch moments, including his game-winning shot in the 1989 NBA playoffs known as The Shot.</item>
+        <item>Dwyane Wade, affectionately known as D-Wade, made his mark as a dynamic shooting guard in the NBA. His scoring prowess, athleticism, and ability to rise to the occasion in crucial moments endeared him to fans. Wade spent the majority of his illustrious career with the Miami Heat, where he won three NBA championships and earned the 2006 NBA Finals MVP award. He was a 13-time NBA All-Star and was known for his leadership both on and off the court.</item>
+        <item>Tony Parker, a French point guard, was a pivotal figure in the San Antonio Spurs\' success during his tenure with the team. His quickness, playmaking ability, and exceptional ball-handling skills made him one of the best point guards of his era. Parker was instrumental in helping the Spurs secure multiple NBA championships, and he was a six-time NBA All-Star.</item>
+        <item>Dirk Nowitzki, known as The Big German, was a legendary power forward from Germany who spent his entire NBA career with the Dallas Mavericks. His scoring versatility, highlighted by his iconic one-legged fadeaway shot, made him a nightmare for defenders. Nowitzki\'s crowning achievement came in 2011 when he led the Mavericks to an NBA championship, and he was a 14-time NBA All-Star during his career.</item>
+        <item>Pau Gasol, a Spanish power forward/center, made a significant impact in the NBA with several teams, including the Los Angeles Lakers. His versatility, exceptional passing, and basketball IQ were his trademarks. Gasol played a crucial role in the Lakers\' back-to-back NBA championships in 2009 and 2010 and was a six-time NBA All-Star. His unselfish style of play and commitment to team success were widely recognized.</item>
+        <item>Manu Ginóbili, an Argentine shooting guard, was a beloved figure in the San Antonio Spurs organization during their championship-winning years. Ginobili\'s creativity, fearless style of play, and clutch performances earned him a special place in NBA history. He played a key role in the Spurs\' success, winning four NBA championships, and was a two-time NBA All-Star.</item>
+        <item>Paul Pierce, affectionately known as The Truth, was a dynamic small forward who spent the majority of his career with the Boston Celtics. His scoring ability, especially in clutch moments, defined his legacy. Pierce was a one-time NBA champion, winning in 2008 with the Celtics, and a 10-time NBA All-Star. His leadership and memorable playoff moments solidified his status as a Boston sports icon.</item>
+        <item>Kevin Garnett, an intense and versatile power forward/center, had a storied NBA career with the Minnesota Timberwolves and later with the Boston Celtics. His defensive prowess, fierce competitiveness, and leadership qualities set the tone for his teams. Garnett was a crucial part of the Celtics\' 2008 NBA championship victory and was a 15-time NBA All-Star.</item>
+        <item>Scottie Pippen, renowned for his role as Michael Jordan\'s sidekick with the Chicago Bulls, was a versatile and defensive-minded small forward. His ability to guard multiple positions, coupled with his playmaking skills, was instrumental in the Bulls\' six NBA championships in the 1990s. Pippen was a seven-time NBA All-Star and a key contributor to the team\'s success.</item>
+        <item>Shaquille O\'Neal, often called Shaq, was one of the most dominant centers in the history of the NBA. His imposing size, strength, and athleticism made him a force to be reckoned with in the paint. O\'Neal won four NBA championships, three with the Los Angeles Lakers and one with the Miami Heat, and was a 15-time NBA All-Star. His charismatic personality and powerful dunks left an indelible mark on the league.</item>
+        <item>Yao Ming, a towering Chinese center, made a significant impact in the NBA despite his relatively short career due to injuries. He played for the Houston Rockets and became a global basketball ambassador, contributing to the league\'s popularity in China. Yao was known for his deft post moves and impressive shot-blocking abilities. He was an eight-time NBA All-Star and left an enduring legacy as an international basketball icon.</item>
+        <item>Tim Duncan, often referred to as The Big Fundamental, was a consummate professional and one of the most consistent and successful power forwards/centers in NBA history. He spent his entire career with the San Antonio Spurs, leading the team to five NBA championships. Duncan was known for his textbook post moves, defensive excellence, and calm demeanor. He was a 15-time NBA All-Star and the epitome of team-first basketball.</item>
+        <item>Kobe Bryant, fondly known as Black Mamba, was an iconic shooting guard who spent his entire career with the Los Angeles Lakers. He left an indelible mark on the game with his scoring ability, work ethic, and unwavering competitiveness. Bryant won five NBA championships with the Lakers, earning two NBA Finals MVP awards, and was an 18-time NBA All-Star. His scoring prowess, Mamba mentality, and memorable moments on the court solidified his status as a basketball legend before his tragic passing in 2020.</item>
+    </string-array>
+
+    <string-array name="player_url">
+        <item>https://cdn.nba.com/manage/2021/08/michael-jordan-looks.jpg</item>
+        <item>https://www.blackpast.org/wp-content/uploads/dwyane-wade.jpg</item>
+        <item>https://cdn.vox-cdn.com/thumbor/_W22OMpNm6zJ9ImIF25HHnRUEAA=/0x0:2175x3000/1200x800/filters:focal(862x259:1210x607)/cdn.vox-cdn.com/uploads/chorus_image/image/72375974/456866694.0.jpg</item>
+        <item>https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQkRvUuMBl0zWRenOIXpfRACBCkzi35cYrX4E7Ok-Zqe8IOJwBbdzlsx6GIV0kBE_KBL8QrUQ2em7HN7pw</item>
+        <item>https://s.yimg.com/ny/api/res/1.2/hPJPQvVLhS9XdcG7BY1dkA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQxOA--/https://media.zenfs.com/en_US/Sports/USA_Today/20140214_tcb_sv7_240-dd60a3d1c885de9cd3cd2ff45a5af5ac</item>
+        <item>https://remezcla.com/wp-content/uploads/2022/10/Manu_Ginobili_Spurs_Basketball_Sports-1424x1068.jpg</item>
+        <item>https://www.bostonglobe.com/resizer/zY8xW9wAxWRtBv2MV5VmJPhzbmw=/arc-anglerfish-arc2-prod-bostonglobe/public/NTERV2HTYF7BGCUY72JVSYDNCU.JPG</item>
+        <item>https://nbcsports.brightspotcdn.com/dims4/default/437473d/2147483647/strip/true/crop/594x334+0+31/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F2f%2F84%2F2dbc681f1486e976973db4ded958%2F81449983.jpg</item>
+        <item>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSxCWyNDhRwdv5i3caWgF_RxsW7xEjrfcDaRzxFHx1N3s8fn0-S</item>
+        <item>https://nbcsports.brightspotcdn.com/dims4/default/c7b677d/2147483647/strip/true/crop/789x444+0+1/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F32%2F0e%2F15e49cf2162daf4da0101d25d51c%2F5608b3a444dc82bd329f2fa89466-e1453998862985.jpeg</item>
+        <item>https://cdn.vox-cdn.com/thumbor/33GMTaB47uF-zGN-dNNzY2wxu9Y=/0x0:1000x667/1400x1400/filters:focal(0x0:1000x667):format(jpeg)/cdn.vox-cdn.com/photo_images/3273355/106148233.jpg</item>
+        <item>https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg5ODA2MTU4ODA5MTQ3MDY4/usatsi_7942330_168395540_lowres.jpg</item>
+        <item>https://lh3.googleusercontent.com/ipH1187A-HdHnmMJ0B72HENffkOr1PNN38oE-EhaAIfpOWSOKAf7H-3s0DpSsFPuSWaM-z0yYvXNmbFf6qzcy8Be4q4=w640-h400-e365-rj-sc0x00ffffff</item>
+    </string-array>
+
+    <string-array name="player_team">
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chicago_Bulls_logo.svg/1280px-Chicago_Bulls_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Miami_Heat_logo.svg/1024px-Miami_Heat_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/San_Antonio_Spurs.svg/2880px-San_Antonio_Spurs.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Dallas_Mavericks_logo.svg/1280px-Dallas_Mavericks_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/2560px-Los_Angeles_Lakers_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/San_Antonio_Spurs.svg/2880px-San_Antonio_Spurs.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/1280px-Boston_Celtics.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Minnesota_Timberwolves_logo.svg/1280px-Minnesota_Timberwolves_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chicago_Bulls_logo.svg/1280px-Chicago_Bulls_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/2560px-Los_Angeles_Lakers_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Rockets.svg/1024px-Houston_Rockets.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/San_Antonio_Spurs.svg/2880px-San_Antonio_Spurs.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/2560px-Los_Angeles_Lakers_logo.svg.png</item>
+    </string-array>
+</resources>
